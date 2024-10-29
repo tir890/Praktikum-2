@@ -29,3 +29,7 @@ else:
     print("Tidak perlu ikut asuransi")
     if punya_rumah:
         print("Wajib bayar pajak rumah")
+```
+Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
+
+if `punya_rumah` kalau true akan mencetak "Wajib bayar pajak rumah"
