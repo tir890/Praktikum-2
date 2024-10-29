@@ -28,4 +28,4 @@ Kemudian, program memeriksa apakah sudah berkeluarga.
 else:
     print("Tidak perlu ikut asuransi")
     if punya_rumah:
-        print("wWjib bayar pajak rumah")
+        print("Wajib bayar pajak rumah")
