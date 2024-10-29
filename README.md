@@ -34,4 +34,71 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 
 `if punya_rumah` kalau true akan mencetak "Wajib bayar pajak rumah"
 
+## Pengunaan `if`, `else`, dan `elif` untuk nilai
+```Python
+if akhir > 80:
+    huruf = "A"
+elif akhir > 70:
+    huruf = "B"
+elif akhir > 50:
+    huruf = "C"
+elif akhir > 40:
+    huruf = "D"
+else:
+    huruf = "E"
+```
 
+## Penggunaan kondisi `OR`
+```Python
+if a + b == c or b + c == a or c + a == b:
+```
+
+## Penggunaan `if`, `else` dan `elif` untuk tiket bioskop
+```Python
+if tipe_tiket == "reguler":
+    harga_tiket = harga_reguler
+elif tipe_tiket == "vip":
+    harga_tiket = harga_vip
+else:
+    print("Tipe tiket tidak valid!")
+    exit()
+```
+
+```Python
+if status_member == "Y":
+   diskon = 0.20 * harga_tiket
+   harga_akhir = harga_tiket - diskon
+   print(f"Anda mendapatkan diskon 20%! Potongan harga: Rp{diskon:.2f}")
+else:
+   harga_akhir = harga_tiket
+```
+
+## Penggunaan `if`, `elif`, dan `else`
+```Python
+if operator == '+':
+    hasil = angka1 + angka2
+    print(f"Hasil: {angka1} + {angka2} = {hasil}")
+```
+
+```Python
+elif operator == '-':
+    hasil = angka1 - angka2
+    print(f"Hasil: {angka1} - {angka2} = {hasil}")
+elif operator == '*':
+    hasil = angka1 * angka2
+    print(f"Hasil: {angka1} * {angka2} = {hasil}")
+```
+
+```Python
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print(f"Hasil: {angka1} / {angka2} = {hasil}")
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan!")
+```
+
+```Python
+else:
+    print("Operator tidak valid! Silakan masukkan +, -, *, atau /.")
+```
