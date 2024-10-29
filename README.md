@@ -14,6 +14,12 @@ Dalam Python, `if` dan `else` digunakan untuk melakukan pengambilan keputusan be
 ## Penggunaan `elif` untuk gaji karyawan
 ```Python
 if gaji > 3000000:
-    print("gaji sudah di atas UMR")
+    print("Gaji sudah di atas UMR")
     if berkeluarga:
-        print("wajib ikutan asuransi")
+        print("Wajib ikut asuransi dan menabung untuk pensiun")
+```
+Program akan memeriksa apakah gaji lebih dari 3.000.000.
+Jika benar, akan mencetak "Gaji sudah di atas UMR".
+Kemudian, program memeriksa apakah sudah berkeluarga.
+Jika benar, akan mencetak "Wajib ikut asuransi dan menabung untuk pensiun".
+
