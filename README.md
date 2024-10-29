@@ -1,4 +1,4 @@
-# Praktikum 2 - Struktur Kondisi 
+# Praktikum-2 | Struktur Kondisi 
 
 Nama : Tiara Hayatul Khoir
 
@@ -24,5 +24,8 @@ Jika benar, akan mencetak "Gaji sudah di atas UMR".
 
 Kemudian, program memeriksa apakah sudah berkeluarga.
 
-Jika benar, akan mencetak "Wajib ikut asuransi dan menabung untuk pensiun".
-
+```Python
+else:
+    print("Tidak perlu ikut asuransi")
+    if punya_rumah:
+        print("wWjib bayar pajak rumah")
