@@ -37,6 +37,7 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 ![foto](https://github.com/tir890/foto/blob/040510722a9232213763c1e3934d2732c1ad44f1/Blank%20diagram%20(1).png)
 
 ## Hasil Kode Program
+![foto](https://github.com/tir890/foto/blob/2c337f093c7404f272af9a1533ba70f7b817c777/gaji%20karyawan.png)
 
 ## Pengunaan `if`, `else`, dan `elif` untuk nilai
 ```Python
