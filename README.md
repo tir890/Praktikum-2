@@ -125,6 +125,7 @@ if operator == '+':
     hasil = angka1 + angka2
     print(f"Hasil: {angka1} + {angka2} = {hasil}")
 ```
+Memeriksa apakah operator yang dimasukkan adalah `+`. Jika benar, maka kode menghitung jumlah `angka1` dan `angka2`, lalu mencetak hasilnya.
 
 ```Python
 elif operator == '-':
@@ -134,6 +135,8 @@ elif operator == '*':
     hasil = angka1 * angka2
     print(f"Hasil: {angka1} * {angka2} = {hasil}")
 ```
+`elif` digunakan untuk memeriksa kondisi berikutnya, yaitu jika operator adalah `-` atau `*`. Setiap blok `elif` melakukan operasi yang sesuai (pengurangan atau perkalian) dan mencetak hasilnya.
+
 
 ```Python
 elif operator == '/':
@@ -143,8 +146,12 @@ elif operator == '/':
     else:
         print("Error: Pembagian dengan nol tidak diperbolehkan!")
 ```
+Memeriksa apakah operator adalah `/`. Sebelum melakukan pembagian, kode memeriksa apakah `angka2` tidak sama dengan 0. Jika `angka2` tidak sama dengan 0, maka pembagian dilakukan dan hasilnya dicetak. Jika `angka2` sama dengan 0, kode mencetak pesan kesalahan karena pembagian dengan nol tidak diperbolehkan.
 
 ```Python
 else:
     print("Operator tidak valid! Silakan masukkan +, -, *, atau /.")
 ```
+Jika semua kondisi sebelumnya tidak terpenuhi (misalnya, pengguna memasukkan operator yang tidak valid), maka blok `else` dieksekusi.
+
+Program akan mencetak pesan bahwa operator tidak valid dan meminta pengguna untuk memasukkan operator yang benar.
