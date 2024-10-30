@@ -33,6 +33,7 @@ else:
 Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 
 `if punya_rumah` kalau true akan mencetak "Wajib bayar pajak rumah"
+
 ![foto](https://github.com/tir890/foto/blob/040510722a9232213763c1e3934d2732c1ad44f1/Blank%20diagram%20(1).png)
 
 ## Hasil Kode Program
