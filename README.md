@@ -90,7 +90,9 @@ else:
     exit()
 ```
 Kondisi `if` Memeriksa apakah variabel `tipe_tiket` sama dengan "reguler". Jika kondisi ini benar (True), maka nilai `harga_tiket` diatur ke `harga_reguler`.
+
 Kondisi `elif` Jika kondisi sebelumnya tidak terpenuhi (tipe_tiket bukan "reguler"), program akan memeriksa apakah `tipe_tiket` sama dengan "vip". Jika benar, maka `harga_tiket` diatur ke harga_vip.
+
 Kondisi `else` Jika kedua kondisi di atas tidak terpenuhi (artinya `tipe_tiket tidak valid`), program mencetak pesan "Tipe tiket tidak valid!" dan kemudian menghentikan eksekusi program dengan `exit`().
 
 ```Python
@@ -101,6 +103,21 @@ if status_member == "Y":
 else:
    harga_akhir = harga_tiket
 ```
+Kondisi `if` Memeriksa apakah `status_member` sama dengan "Y" (yang mungkin berarti pengguna adalah anggota).
+
+Jika benar, maka:
+
+Diskon dihitung sebagai 20% dari `harga_tiket`. `harga_akhir` dihitung dengan mengurangi `diskon` dari `harga_tiket`. Program mencetak pesan yang menyatakan bahwa pengguna mendapatkan diskon, termasuk jumlah potongan harga dalam format yang diinginkan.
+
+Kondisi else:
+
+Jika pengguna bukan anggota (status_member bukan "Y"), maka `harga_akhir` diatur sama dengan `harga_tiket` tanpa diskon.
+
+![foto](https://github.com/tir890/foto/blob/be4012cea396c69e55735abd5bc14c64875fdbf4/Blank%20diagram%20(4).png)
+
+## Hasil Kode Program
+
+![foto](https://github.com/tir890/foto/blob/be4012cea396c69e55735abd5bc14c64875fdbf4/Screenshot%202024-10-30%20235607.png)
 
 ## Penggunaan `if`, `elif`, dan `else`
 ```Python
