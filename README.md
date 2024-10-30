@@ -68,11 +68,11 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 ## Hasil Kode Program
 ![foto](https://github.com/tir890/foto/blob/2c337f093c7404f272af9a1533ba70f7b817c777/gaji%20karyawan.png)
 
-## Penggunaan kondisi `OR`
+## Penggunaan Kondisi `OR`
 ```Python
 if a + b == c or b + c == a or c + a == b:
 ```
-Pada baris ini, program memeriksa beberapa kondisi menggunakan operator logika or. Operator or digunakan untuk menggabungkan beberapa kondisi. Jika salah satu dari kondisi yang digabungkan dengan or adalah True, maka seluruh pernyataan akan dianggap True.
+Pada baris ini, program memeriksa beberapa kondisi menggunakan operator logika `or`. Operator `or` digunakan untuk menggabungkan beberapa kondisi. Jika salah satu dari kondisi yang digabungkan dengan `or` adalah `True`, maka seluruh pernyataan akan dianggap `True`.
 
 ![foto](https://github.com/tir890/foto/blob/0d2b351c77b752f25056d4c8fd906d8cf0a9b4c4/Blank%20diagram%20(3).png)
 
@@ -93,7 +93,7 @@ Kondisi `if` Memeriksa apakah variabel `tipe_tiket` sama dengan "reguler". Jika 
 
 Kondisi `elif` Jika kondisi sebelumnya tidak terpenuhi (tipe_tiket bukan "reguler"), program akan memeriksa apakah `tipe_tiket` sama dengan "vip". Jika benar, maka `harga_tiket` diatur ke harga_vip.
 
-Kondisi `else` Jika kedua kondisi di atas tidak terpenuhi (artinya `tipe_tiket tidak valid`), program mencetak pesan "Tipe tiket tidak valid!" dan kemudian menghentikan eksekusi program dengan `exit`().
+Kondisi `else` Jika kedua kondisi di atas tidak terpenuhi (artinya `tipe_tiket tidak valid`), program mencetak pesan "Tipe tiket tidak valid!" dan kemudian menghentikan eksekusi program dengan `exit()`.
 
 ```Python
 if status_member == "Y":
