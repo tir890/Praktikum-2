@@ -89,6 +89,9 @@ else:
     print("Tipe tiket tidak valid!")
     exit()
 ```
+Kondisi `if` Memeriksa apakah variabel `tipe_tiket` sama dengan "reguler". Jika kondisi ini benar (True), maka nilai `harga_tiket` diatur ke `harga_reguler`.
+Kondisi `elif` Jika kondisi sebelumnya tidak terpenuhi (tipe_tiket bukan "reguler"), program akan memeriksa apakah `tipe_tiket` sama dengan "vip". Jika benar, maka `harga_tiket` diatur ke harga_vip.
+Kondisi `else` Jika kedua kondisi di atas tidak terpenuhi (artinya `tipe_tiket tidak valid`), program mencetak pesan "Tipe tiket tidak valid!" dan kemudian menghentikan eksekusi program dengan `exit`().
 
 ```Python
 if status_member == "Y":
