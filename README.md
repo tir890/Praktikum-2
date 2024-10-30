@@ -67,20 +67,6 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 ## Hasil Kode Program
 ![foto](https://github.com/tir890/foto/blob/2c337f093c7404f272af9a1533ba70f7b817c777/gaji%20karyawan.png)
 
-## Pengunaan `if`, `else`, dan `elif` untuk nilai
-```Python
-if akhir > 80:
-    huruf = "A"
-elif akhir > 70:
-    huruf = "B"
-elif akhir > 50:
-    huruf = "C"
-elif akhir > 40:
-    huruf = "D"
-else:
-    huruf = "E"
-```
-
 ## Penggunaan kondisi `OR`
 ```Python
 if a + b == c or b + c == a or c + a == b:
