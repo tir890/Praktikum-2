@@ -155,3 +155,9 @@ else:
 Jika semua kondisi sebelumnya tidak terpenuhi (misalnya, pengguna memasukkan operator yang tidak valid), maka blok `else` dieksekusi.
 
 Program akan mencetak pesan bahwa operator tidak valid dan meminta pengguna untuk memasukkan operator yang benar.
+
+![foto](https://github.com/tir890/foto/blob/1720ed118f2b1f579cab7b0a6b756c7b45733848/Blank%20diagram%20(5).png)
+
+## Hasil Kode Program
+
+![foto](https://github.com/tir890/foto/blob/1720ed118f2b1f579cab7b0a6b756c7b45733848/Screenshot%202024-10-31%20001903.png)
