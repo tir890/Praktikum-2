@@ -73,10 +73,11 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 if a + b == c or b + c == a or c + a == b:
 ```
 Pada baris ini, program memeriksa beberapa kondisi menggunakan operator logika or. Operator or digunakan untuk menggabungkan beberapa kondisi. Jika salah satu dari kondisi yang digabungkan dengan or adalah True, maka seluruh pernyataan akan dianggap True.
-```
 
+![foto](https://github.com/tir890/foto/blob/0d2b351c77b752f25056d4c8fd906d8cf0a9b4c4/Blank%20diagram%20(3).png)
 
-
+## Hasil Kode Program
+![foto](https://github.com/tir890/foto/blob/0d2b351c77b752f25056d4c8fd906d8cf0a9b4c4/Screenshot%202024-10-30%20231511.png)
 
 ## Penggunaan `if`, `else` dan `elif` untuk tiket bioskop
 ```Python
