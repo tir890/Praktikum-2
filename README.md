@@ -34,6 +34,8 @@ Jika kurang dari 3.000.000, akan mencetak "Tidak perlu ikut asuransi"
 
 `if punya_rumah` kalau true akan mencetak "Wajib bayar pajak rumah"
 
+## Hasil Kode Program
+
 ## Pengunaan `if`, `else`, dan `elif` untuk nilai
 ```Python
 if akhir > 80:
