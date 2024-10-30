@@ -38,6 +38,7 @@ Jika akhir > 70: Huruf diisi "B". Jika akhir > 50: Huruf diisi "C". Jika akhir >
 
 ## Hasil Kode program
 
+![foto](https://github.com/tir890/foto/blob/5ebac34cd25748e5017f89f183641b77a495e9be/nilai.png)
 
 ## Penggunaan `elif` Untuk Gaji Karyawan
 ```Python
