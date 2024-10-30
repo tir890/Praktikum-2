@@ -11,7 +11,30 @@ Mata Kuliah : Bahasa Pemrograman
 ## Penggunaan stuktur kondisi menggunakan statsment `if`, `else` dan `elif` dalam Python
 Dalam Python, `if` dan `else` digunakan untuk melakukan pengambilan keputusan berdasarkan kondisi tertentu. Program akan menjalankan blok kode dalam `if` jika kondisi tersebut bernilai True. Namun, jika kondisinya False, program akan menjalankan blok kode yang terdapat dalam `else`. Selanjutnya `elif` adalah singkatan dari "else if". Ini digunakan untuk memeriksa kondisi tambahan jika kondisi sebelumnya `if` atau `elif` bernilai False. Dengan elif, kita dapat mengevaluasi beberapa kondisi secara berurutan.
 
-## Penggunaan `elif` untuk gaji karyawan
+## Penggunaan `if`, `else`, dan `elif` Untuk Nilai
+```Python
+if akhir > 80:
+    huruf = "A"
+elif akhir > 70:
+    huruf = "B"
+elif akhir > 50:
+    huruf = "C"
+elif akhir > 40:
+    huruf = "D"
+else:
+    huruf = "E"
+```
+`if`: Mengecek apakah nilai akhir lebih dari 80.
+
+Jika True, variabel huruf diisi dengan "A", dan program tidak memeriksa kondisi lainnya (blok selesai di sini).
+
+`elif`: (else if) Memeriksa kondisi tambahan jika kondisi pertama (nilai akhir > 80) False.
+
+Jika akhir > 70: Huruf diisi "B". Jika akhir > 50: Huruf diisi "C". Jika akhir > 40: Huruf diisi "D".
+
+`else`: Menangani semua kondisi lainnya (yaitu jika nilai akhir ≤ 40). Dalam kasus ini, huruf diisi dengan "E".
+
+## Penggunaan `elif` Untuk Gaji Karyawan
 ```Python
 if gaji > 3000000:
     print("Gaji sudah di atas UMR")
