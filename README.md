@@ -34,6 +34,11 @@ Jika akhir > 70: Huruf diisi "B". Jika akhir > 50: Huruf diisi "C". Jika akhir >
 
 `else`: Menangani semua kondisi lainnya (yaitu jika nilai akhir ≤ 40). Dalam kasus ini, huruf diisi dengan "E".
 
+![foto](https://github.com/tir890/foto/blob/755cb9a2f8fc7f875fefd558d47e191951a9f12a/Blank%20diagram%20(2).png)
+
+## Hasil Kode program
+
+
 ## Penggunaan `elif` Untuk Gaji Karyawan
 ```Python
 if gaji > 3000000:
